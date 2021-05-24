@@ -1,5 +1,7 @@
 # **Biomedical Data Analysis**
 
+The following document the work done in the python notebook Analysis.ipynb, detailing the motivations behind each step and insights gained in the Data visualisation and Data Analysis section.
+
 - [**Biomedical Data Analysis**](#biomedical-data-analysis)
   - [**Data and function preparation**](#data-and-function-preparation)
     - [**Create dataframes (Cell 1)**](#create-dataframes-cell-1)
@@ -479,7 +481,7 @@ for key in cc_dfDict:
 <details>
 <summary>Example Output</summary>
 
-![Example corr heatmap](Outputs\Plots\corr_cmr_heatmap.png "cmr correlation heatmap")
+![Example corr heatmap](Outputs/Plots/corr_cmr_heatmap.png "cmr correlation heatmap")
 
 </details>
 <br>
@@ -498,7 +500,7 @@ Comments: There is no significant correlation between physical functional parame
 <details>
 <summary>Correlation Heatmap Output</summary>
 
-![Correlation heatmap](Images\physFuncLVEFCorr.png "Correlation heatmap")
+![Correlation heatmap](Images/physFuncLVEFCorr.png "Correlation heatmap")
 
 </details>
 <br>
@@ -515,7 +517,7 @@ Comments: There is no significant correlation between physical functional parame
 <details>
 <summary>Correlation Heatmap Output</summary>
 
-![Correlation heatmap](Images\physfuncEAratioCorr.png "Correlation heatmap")
+![Correlation heatmap](Images/physfuncEAratioCorr.png "Correlation heatmap")
 
 </details>
 <br>

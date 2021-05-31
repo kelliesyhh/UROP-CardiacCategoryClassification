@@ -73,7 +73,7 @@ from matplotlib import axes as axes
 
 
 
-# In[53]:
+# In[55]:
 
 
 def draw_shape(a):
@@ -168,10 +168,10 @@ def draw_shape(a):
     plt.show()
 
 
-# In[54]:
+# In[ ]:
 
 
-draw_shape(a)
+
 
 
 # In[ ]:

@@ -491,8 +491,10 @@ for key in cc_dfDict:
 Motivation: LVEF and E_A_ratio are the most important features in predicting cardiac category. We want to see if any physical functional parameters (Which are presumed to be easily obtainable) is correlated with these important features so that they can be used instead of the harder-to-obtain echo parameters
 
 ```python
-regData1 = data[physFuncParamsCols + ["LVEF"]]
+regData1 = data[physFuncParamsCols] 
+regData1 = ["LVEF"]
 outputCorrData(regData1,threshold=0,filename="PhysFunc and LVEF")
+outputCorrData(regData1,threshold=0,filename="LVEF")
 ```
 
 Comments: There is no significant correlation between physical functional parameters and LVEF.

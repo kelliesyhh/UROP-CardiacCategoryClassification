@@ -1,4 +1,4 @@
-# **Biomedical Data Analysis**
+# **Biomedical Data Analysis (OUTDATED)**
 
 The following document the work done in the python notebook Analysis.ipynb, detailing the motivations behind each step and insights gained in the Data visualisation and Data Analysis section.
 

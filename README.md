@@ -300,6 +300,17 @@ def compareClasModel(df,target,test_size=0.25,title="Dataset",showImportance=Fal
     # initialise empty dataframe
     comparison = pd.DataFrame(columns=["Model","AccuracyScore","MeanR2CVScore","MeanCVError"])
     # Because dataset is small, we use k-fold cross validation
+    import pandas as pd
+    import shap
+    import sklearn
+
+    # a classic housing price dataset
+    X,y = shap.datasets.(df)
+    X100 = shap.utils.sample(X, 100) # 100 instances for use as the background distribution
+
+   # a simple linear model
+    model = sklearn.linear_model.LinearRegression()
+    model.fit(X, y)
 
     for model in models:
         name = model.__class__.__name__

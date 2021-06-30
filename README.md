@@ -305,10 +305,9 @@ def compareClasModel(df,target,test_size=0.25,title="Dataset",showImportance=Fal
     import sklearn
 
     # a classic housing price dataset
-    X,y = shap.datasets.(df)
-    X100 = shap.utils.sample(X, 100) # 100 instances for use as the background distribution
-
-   # a simple linear model
+    X,y = shap.datasets.(DataFrame)
+    X100 = shap.utils.sample(X, 100) 
+    a simple linear model
     model = sklearn.linear_model.LinearRegression()
     model.fit(X, y)
 

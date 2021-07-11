@@ -1,0 +1,10 @@
+,Model,MeanCvAccuracy,MeanCvROCAUC,MeanCvRecallScore,MeanCvPrecisionScore,MeanCvF1Score
+0,LogisticRegression,0.623,0.651,0.599,0.639,0.609
+0,GaussianNB,0.700,0.751,0.608,0.776,0.669
+0,KNeighborsClassifier,0.549,0.602,0.578,0.561,0.559
+0,DecisionTreeClassifier,0.637,0.637,0.628,0.655,0.630
+0,RandomForestClassifier,0.758,0.824,0.751,0.779,0.757
+0,GradientBoostingClassifier,0.708,0.768,0.685,0.730,0.708
+0,XGBClassifier,0.694,0.738,0.671,0.721,0.687
+0,LGBMClassifier,0.656,0.704,0.669,0.671,0.662
+0,SVC,0.583,0.599,0.663,0.582,0.614
